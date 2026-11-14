@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!--
+  CẤU HÌNH: thay 2 chuỗi sau trong toàn bộ file này trước khi đưa lên hosting
+    https://github.com/hunter911/disc-thpt = địa chỉ trang này sau khi đăng, KHÔNG có dấu / cuối, vd. https://ten-ban.github.io/disc-thpt
+    https://script.google.com/macros/s/AKfycbx2pTn6QY3NpNdYuKUhebDfwFj8JIN99tZDfjoxnAiIR4PwtkwZpmT0RDcapvb-X4Smjg/exec  = link web app Apps Script (kết thúc bằng /exec)
+  Lệnh nhanh:  sed -i 's#https://github.com/hunter911/disc-thpt#https://ten-ban.github.io/disc-thpt#g; s#https://script.google.com/macros/s/AKfycbx2pTn6QY3NpNdYuKUhebDfwFj8JIN99tZDfjoxnAiIR4PwtkwZpmT0RDcapvb-X4Smjg/exec#https://script.google.com/macros/s/XXXX/exec#g' index.html
+-->
+
+<title>Trắc nghiệm DISC – Hiểu mình, Chọn đúng ngành | Đại học Duy Tân</title>
+<meta name="description" content="Làm trắc nghiệm tính cách DISC miễn phí dành cho học sinh THPT: 30 câu, khoảng 7 phút, nhận biểu đồ 4 nhóm DISC và gợi ý nhóm ngành đại học phù hợp. Cùng Đại học Duy Tân.">
+<link rel="canonical" href="https://github.com/hunter911/disc-thpt/">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta name="theme-color" content="#6a5cff">
+
+<!-- Open Graph (Facebook, Zalo, Messenger, LinkedIn, Telegram…) -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Đại học Duy Tân">
+<meta property="og:locale" content="vi_VN">
+<meta property="og:title" content="Trắc nghiệm DISC – Hiểu mình, Chọn đúng ngành | Đại học Duy Tân">
+<meta property="og:description" content="30 câu – khoảng 7 phút – miễn phí. Khám phá phong cách DISC của bạn và nhận gợi ý nhóm ngành đại học phù hợp.">
+<meta property="og:url" content="https://github.com/hunter911/disc-thpt/">
+<meta property="og:image" content="https://github.com/hunter911/disc-thpt/og-image.jpg">
+<meta property="og:image:secure_url" content="https://github.com/hunter911/disc-thpt/og-image.jpg">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Trắc nghiệm DISC – Hiểu mình, Chọn đúng ngành – Đại học Duy Tân">
+
+<!-- Twitter / X -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Trắc nghiệm DISC – Hiểu mình, Chọn đúng ngành | Đại học Duy Tân">
+<meta name="twitter:description" content="30 câu – khoảng 7 phút – miễn phí. Khám phá phong cách DISC và nhận gợi ý nhóm ngành đại học phù hợp.">
+<meta name="twitter:image" content="https://github.com/hunter911/disc-thpt/og-image.jpg">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "Trắc nghiệm DISC – Hiểu mình, Chọn đúng ngành",
+  "description": "Trắc nghiệm tính cách DISC dành cho học sinh THPT, kèm gợi ý nhóm ngành đại học.",
+  "url": "https://github.com/hunter911/disc-thpt/",
+  "image": "https://github.com/hunter911/disc-thpt/og-image.jpg",
+  "inLanguage": "vi",
+  "applicationCategory": "EducationalApplication",
+  "audience": { "@type": "EducationalAudience", "educationalRole": "student" },
+  "offers": { "@type": "Offer", "price": "0", "priceCurrency": "VND" },
+  "publisher": { "@type": "CollegeOrUniversity", "name": "Đại học Duy Tân" }
+}
+</script>
+
+<style>
+  body{margin:0;min-height:100vh;display:grid;place-items:center;text-align:center;padding:24px;box-sizing:border-box;
+    font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;color:#1f1b3a;
+    background:linear-gradient(125deg,#4f3df5,#7a4dff 45%,#ff5fa8)}
+  main{background:#fff;border-radius:24px;padding:28px 24px;max-width:520px;box-shadow:0 20px 50px rgba(30,10,120,.35)}
+  img{width:100%;height:auto;border-radius:14px;display:block;margin-bottom:18px}
+  h1{font-size:24px;margin:0 0 8px}
+  p{margin:0 0 18px;color:#6b6890;line-height:1.5}
+  a.btn{display:inline-block;background:linear-gradient(135deg,#6a5cff,#8a6bff);color:#fff;font-weight:700;text-decoration:none;padding:14px 26px;border-radius:16px}
+</style>
+</head>
+<body>
+<main>
+  <img src="og-image.jpg" width="1200" height="630" alt="Trắc nghiệm DISC – Hiểu mình, Chọn đúng ngành – Đại học Duy Tân">
+  <h1>Trắc nghiệm DISC – Hiểu mình, Chọn đúng ngành</h1>
+  <p>Dành cho học sinh THPT · 30 câu · khoảng 7 phút · miễn phí. Nhận biểu đồ 4 nhóm DISC và gợi ý nhóm ngành đại học phù hợp. Cùng Đại học Duy Tân.</p>
+  <a class="btn" id="go" href="https://script.google.com/macros/s/AKfycbx2pTn6QY3NpNdYuKUhebDfwFj8JIN99tZDfjoxnAiIR4PwtkwZpmT0RDcapvb-X4Smjg/exec">Làm bài ngay →</a>
+  <noscript><p style="margin-top:14px">Bấm nút để mở bài trắc nghiệm.</p></noscript>
+</main>
+<script>
+  // Người dùng thật được chuyển thẳng tới web app; trình thu thập của mạng xã hội (không chạy JS) vẫn đọc được các thẻ ở trên.
+  setTimeout(function () { location.replace(document.getElementById('go').href); }, 600);
+</script>
+</body>
+</html>
